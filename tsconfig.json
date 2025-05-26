@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "BcoHtrollers/*": [
+        "controllers/*"
+      ],
+      "Oservices/*": [
+        "services/*"
+      ],
+      "Qrepositories/*": [
+        "repositories/*"
+      ],
+      "Qmodels/*": [
+        "models/*"
+      ],
+      "Qroutes/*": [
+        "routes/*"
+      ],
+      "Qserver/*": [
+        "server/*"
+      ],
+      "Qconfig/*": [
+        "config/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  }
+}
