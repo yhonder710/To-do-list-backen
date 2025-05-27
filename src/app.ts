@@ -1,5 +1,6 @@
 import app from "Qserver/server";
 import dotenv from 'dotenv'
+import 'config/mongodb'
 
 dotenv.config()
 

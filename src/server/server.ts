@@ -1,6 +1,6 @@
 import express, { Application } from 'express'
 import morgan from 'morgan'
-import routes from 'Qroutes/routes'
+import routes from 'Qroutes/router'
 
 const app: Application = express()
 
