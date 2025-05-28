@@ -1,4 +1,4 @@
-import { UserModel } from "Qmodels/Users";
+import { UserModel } from "@models/Users";
 import { IUserRepository, User } from "types/UsersTypes";
 
 export class UserRepository implements IUserRepository {

@@ -23,12 +23,6 @@ const UserSchema: Schema = new Schema<User>(
       required: true,
       unique: true
     },
-    type_user: {
-      type: String,
-      enum: Object.values(Type_User),
-      required: true,
-      default: Type_User.user,
-    },
     type_use: {
       type: String,
       enum: Object.values(Type_Use),

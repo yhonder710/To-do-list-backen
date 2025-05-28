@@ -1,4 +1,4 @@
-import app from "Qserver/server";
+import app from "@server/server";
 import dotenv from 'dotenv'
 import 'config/mongodb'
 

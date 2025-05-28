@@ -9,25 +9,25 @@
     "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
-      "BcoHtrollers/*": [
+      "@controllers/*": [
         "controllers/*"
       ],
-      "Oservices/*": [
+      "@services/*": [
         "services/*"
       ],
-      "Qrepositories/*": [
+      "@repositories/*": [
         "repositories/*"
       ],
-      "Qmodels/*": [
+      "@models/*": [
         "models/*"
       ],
-      "Qroutes/*": [
+      "@routes/*": [
         "routes/*"
       ],
-      "Qserver/*": [
+      "@server/*": [
         "server/*"
       ],
-      "Qconfig/*": [
+      "@config/*": [
         "config/*"
       ]
     }
