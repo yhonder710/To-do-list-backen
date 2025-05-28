@@ -4,10 +4,6 @@ import { Type_Use, Type_User, User } from "types/UsersTypes";
 
 const UserSchema: Schema = new Schema<User>(
   {
-    id_user: {
-      type: Number,
-      unique: true
-    },
     name: {
       type: String,
       required: true
